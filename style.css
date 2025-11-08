@@ -1,0 +1,53 @@
+body {
+  font-family: 'Noto Sans Kannada', sans-serif;
+  background: linear-gradient(to right, #ffe0ec, #ffc1cc);
+  text-align: center;
+  padding: 40px;
+  color: #4a2c2a;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  max-width: 600px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #d6336c;
+}
+
+p, blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+blockquote {
+  background: #ffe6f0;
+  padding: 15px;
+  border-left: 5px solid #d6336c;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 24px;
+  background-color: #d6336c;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #b02554;
+}
+
+.gallery img {
+  margin: 10px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 300px;
+}
